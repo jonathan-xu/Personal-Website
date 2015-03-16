@@ -16,6 +16,10 @@ $(document).ready(function (){
 		window.location.href = 'index.html';
 	})
 
+	$('#projectButton').click(function(){
+		window.location.href = 'project.html';
+	})
+
 	$('#blogButton').click(function(){
 		window.location.href = 'blog.html';
 	})
