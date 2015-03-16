@@ -1,23 +1,6 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:100,200,300,400,bold');
+
 .button {
-	position: relative;
-	width: 200px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-
-	display: inline-block;
-	color: black;
-	cursor: pointer;
-	font-weight: bold;
-	background: #4a8cf5;
-	font-family: Times;
-	font-size: 30px;
-	/*margin-left: 5%;*/
-/*	padding: 10px 15px;
-	margin: 15px 0;*/
-}
-
-.button1 {
 	position: relative;
 	width: 200px;
 	height: 50px;
@@ -26,31 +9,93 @@
 	display: inline-block;
 	color: white;
 	cursor: pointer;
-	font-weight: normal;
-	background: #4a8cf5;
-	font-family: Times;
+	background: #6A5ACD;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	/*margin:-4px*/
+	/*margin-left: 5%;*/
+/*	padding: 10px 15px;
+	margin: 15px 0;*/
+}
+
+.button1 {
+	position: relative;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	color: black;
+	cursor: pointer;
+	background: #6A5ACD;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
 	font-size: 20px;
 	/*margin-left: 5%;*/
 /*	padding: 10px 15px;
 	margin: 15px 0;*/
 }
 
+#photographyButton {
+	width: 180px;
+}
+
+
 .top-row {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	background: #4a8cf5;
-}
-
-.button:hover {
-	background: #3a7eec;
+	background: #6A5ACD;
 }
 
 .button1:hover {
-	background: #3a7eec;
+	background: #D8BFD8;
 }
 
-.textContent {
-	font-size: 17px;
+#photographyButton:hover {
+	background: #D8BFD8;
 }
+
+.educationAbout {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.links {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.resume {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.fl_left {
+	margin-left: 15px;
+	font-size: 17px;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+}
+
+.aboutHeader {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.personalMilestoneHeader {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.milestoneText {
+	margin-left: 20px;
+	font-size: 17px;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+}
+
+
+

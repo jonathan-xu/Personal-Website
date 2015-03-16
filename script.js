@@ -13,7 +13,7 @@ $(document).ready(function (){
 	})
 
 	$('#aboutButton').click(function(){
-		window.location.href = 'index.html';
+		window.location.href = 'about.html';
 	})
 
 	$('#projectButton').click(function(){
