@@ -99,5 +99,51 @@
 	font-weight: 300;
 }
 
+.photographyFormatText {
+	margin-left: 30px;
+	font-size: 25px;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+}
+
+/* Taken from http://www.dwuser.com/education/content/creating-a-jquery-image-scroller/ */
+
+#scroller {
+    position: relative;
+}
+#scroller .innerScrollArea {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#scroller ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+#scroller li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+}
+
+/*.allPhotos {
+  text-align: center;
+}
+
+img.portraitPhotoGallery {
+    width:57%; 
+    height: auto;
+}
+
+img.landscapePhotoGallery {
+	width: 35%;
+	height: auto;
+}*/
+
 
 
