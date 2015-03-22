@@ -20,12 +20,8 @@ $(document).ready(function (){
 		window.location.href = 'project.html';
 	})
 
-	$('#blogButton').click(function(){
-		window.location.href = 'blog.html';
-	})
-
 	$('#photographyButton').click(function(){
-		window.location.href = 'photography.html';
+		window.location.href = 'photoblog.html';
 	})
 
 	//Taken from http://www.dwuser.com/education/content/creating-a-jquery-image-scroller/
@@ -48,7 +44,7 @@ $(document).ready(function (){
         var tweenToNewSpeed = function(newSpeed, duration)
         {
             if (duration === undefined)
-                duration = 600;
+                duration = 500;
             $controller.stop(true).animate({curSpeed:newSpeed}, duration);
         };
 
@@ -68,7 +64,7 @@ $(document).ready(function (){
                 newX -= fullW;
             scroller.scrollLeft(newX);
         };
-        setInterval(doScroll, 20);
+        setInterval(doScroll, 15);
         tweenToNewSpeed(controller.fullSpeed);
     });
 
