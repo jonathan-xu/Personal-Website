@@ -64,7 +64,7 @@ $(document).ready(function (){
                 newX -= fullW;
             scroller.scrollLeft(newX);
         };
-        setInterval(doScroll, 15);
+        setInterval(doScroll, 14);
         tweenToNewSpeed(controller.fullSpeed);
     });
 
