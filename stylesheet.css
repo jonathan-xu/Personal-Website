@@ -111,6 +111,7 @@
 #scroller {
     position: relative;
 }
+
 #scroller .innerScrollArea {
     overflow: hidden;
     position: absolute;
@@ -119,11 +120,14 @@
     top: 0;
     bottom: 0;
 }
+
 #scroller ul {
     padding: 0;
     margin: 0;
     position: relative;
 }
+
+/* remove the default padding, margin and list bullets. */
 #scroller li {
     padding: 0;
     margin: 0;
